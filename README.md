@@ -5,7 +5,7 @@ This project focuses on understanding and leveraging texture for feature extract
 Description
 To extract texture features using Gray Level Co-occurrence Matrices (GLCM) and perform unsupervised semantic segmentation by clustering pixel features.
 
-### * 1. Patch Extraction:
+* ### 1. Patch Extraction:
 
 Divide the input image into patches. Each patch represents a window centered around a pixel. The size of the patch determines the granularity of feature extraction.
 For each patch, extract the central pixel and treat the patch as a separate image.
