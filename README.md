@@ -97,7 +97,7 @@ One significant challenge was computational complexity. To manage this, I reduce
 <img style="width:1000px" src="https://github.com/user-attachments/assets/36fe3f42-6b0b-4e75-8224-75813a073017"> <br>
 <img style="width:1000px" src="https://github.com/user-attachments/assets/3bf45e55-ecc1-46af-838c-be0c1453946d"> 
 
-### For step-by-step results, check the [GLCM-Gabor NoteBook]([https://github.com/username/repo-name/blob/main/notebook-name.ipynb]).
+### For step-by-step results, check the [GLCM-Gabor NoteBook](https://github.com/peymanHashemi/Texture-Based-Feature-Extraction-and-Unsupervised-Semantic-Segmentation/blob/6166b2379b632a8e568da3ca598f08f91b70c106/GLCM-Gabor.ipynb).
 
 * ### Analysis
 
@@ -121,6 +121,8 @@ I experimented with different filter sizes, scales, and orientations to find the
 
 <img style="width:1000px" src="https://github.com/user-attachments/assets/cbb4a1f4-d1bb-47d1-96ae-e43786f3eeb0"> <br>
 <img style="width:1000px" src="https://github.com/user-attachments/assets/8693e1d2-0e87-44ce-9960-830b58324f65"> 
+
+### For step-by-step results, check the [GLCM-Gabor NoteBook](https://github.com/peymanHashemi/Texture-Based-Feature-Extraction-and-Unsupervised-Semantic-Segmentation/blob/6166b2379b632a8e568da3ca598f08f91b70c106/GLCM-Gabor.ipynb).
 
 * ### Analysis
  
