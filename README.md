@@ -3,9 +3,9 @@ This project focuses on understanding and leveraging texture for feature extract
 
 # Content
 - Table of Contents
-  * [part 1](#Part-1-:-GLCM---Based-Feature-Extraction-and-Semantic-Segmentation) [GLCM-Based Feature Extraction and Semantic Segmentation]
-  * [Part 2](#Part-2:-Gabor-Filter---Based-Feature-Extraction-and-Semantic-Segmentation) [Gabor Filter-Based Feature Extraction and Semantic Segmentation]
-  * [Answer](#METHOD) [METHODOLOGY]
+  * [Part 1: GLCM-Based Feature Extraction and Semantic Segmentation](#part-1-glcm-based-feature-extraction-and-semantic-segmentation) 
+  * [Part 2: Gabor Filter-Based Feature Extraction and Semantic Segmentation](#part-2-gabor-filter-based-feature-extraction-and-semantic-segmentation)  
+  * [METHODOLOGY](#METHOD)
  
 
 # Part 1: GLCM-Based Feature Extraction and Semantic Segmentation
