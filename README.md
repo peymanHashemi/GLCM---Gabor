@@ -88,11 +88,11 @@ After extracting features for all patches, I passed them to the K-Means clusteri
 One significant challenge was computational complexity. To manage this, I reduced the number of gray levels and employed parallel processing when extracting features from large images. These optimizations drastically reduced runtime without sacrificing accuracy.
 
 * ### Analysis
-* 
-### Strengths:
-The GLCM method performed well in distinguishing regions with distinct texture, such as separating objects from the background. It effectively captured fine details, which were useful in scenarios with subtle texture differences.
-### Weaknesses:
-The method struggled with textures that were similar in GLCM metrics but differed visually, like striped patterns. Additionally, the reliance on local patches sometimes led to blocky segmentation when patches spanned regions with varying textures.
+
+  ### Strengths:
+  The GLCM method performed well in distinguishing regions with distinct texture, such as separating objects from the background. It effectively captured fine details, which were useful in     scenarios with subtle texture differences.
+  ### Weaknesses:
+  The method struggled with textures that were similar in GLCM metrics but differed visually, like striped patterns. Additionally, the reliance on local patches sometimes led to blocky         segmentation when patches spanned regions with varying textures.
 
 ## Part 2
 
@@ -106,16 +106,16 @@ For each pixel, I extracted the response values from all applied Gabor filters. 
 I experimented with different filter sizes, scales, and orientations to find the optimal settings for each image. Larger filters captured broader patterns, while smaller ones focused on finer details. This flexibility allowed for more adaptive feature extraction compared to the patch-based GLCM approach.
 
 * ### Analysis
-* 
-### Strengths:
-Gabor filters excelled at capturing edge-based and repetitive textures, making them ideal for images with well-defined patterns. They were also computationally efficient since they operated on the entire image without the need for patch extraction.
-### Weaknesses:
-The method was sensitive to variations in texture orientation and scale. In some cases, slight changes in filter parameters led to significant differences in segmentation results, requiring careful tuning.
+ 
+  ### Strengths:
+  Gabor filters excelled at capturing edge-based and repetitive textures, making them ideal for images with well-defined patterns. They were also computationally efficient since they           operated on the entire image without the need for patch extraction.
+  ### Weaknesses:
+  The method was sensitive to variations in texture orientation and scale. In some cases, slight changes in filter parameters led to significant differences in segmentation results,            requiring careful tuning.
 
 * ### Comparison and Conclusion
-* 
-### GLCM vs. Gabor:
-While GLCM provided detailed local texture features, it was computationally expensive and less flexible. On the other hand, Gabor filters offered a more holistic approach to texture analysis, albeit with sensitivity to parameter choices.
+  
+  ### GLCM vs. Gabor:
+  While GLCM provided detailed local texture features, it was computationally expensive and less flexible. On the other hand, Gabor filters offered a more holistic approach to texture          analysis, albeit with sensitivity to parameter choices.
 
-### Best Use Cases:
-GLCM is ideal for tasks that require fine-grained texture analysis, especially when local context is crucial. Gabor filters are better suited for images with distinct edge-based textures and repetitive patterns.
+  ### Best Use Cases:
+  GLCM is ideal for tasks that require fine-grained texture analysis, especially when local context is crucial. Gabor filters are better suited for images with distinct edge-based textures     and repetitive patterns.
