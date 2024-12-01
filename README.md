@@ -1,6 +1,13 @@
 # Texture-Based-Feature-Extraction-and-Unsupervised-Semantic-Segmentation
 This project focuses on understanding and leveraging texture for feature extraction and semantic segmentation, a critical task in computer vision. The project is divided into two parts: GLCM-based feature extraction and Gabor filter feature extraction, followed by unsupervised clustering for semantic segmentation.
 
+# Content
+- Table of Contents
+  * [part 1](#Part-1:-GLCM---Based-Feature-Extraction-and-Semantic-Segmentation) [GLCM-Based Feature Extraction and Semantic Segmentation]
+  * [Part 2](#Part-2:-Gabor-Filter---Based-Feature-Extraction-and-Semantic-Segmentation) [Gabor Filter-Based Feature Extraction and Semantic Segmentation]
+  * [Answer](#METHOD) [METHODOLOGY]
+ 
+
 # Part 1: GLCM-Based Feature Extraction and Semantic Segmentation
 Description
 To extract texture features using Gray Level Co-occurrence Matrices (GLCM) and perform unsupervised semantic segmentation by clustering pixel features.
@@ -49,3 +56,21 @@ Similar to the GLCM approach, apply the K-Means algorithm to the Gabor-based fea
 * ### 4. Comparison and Analysis:
 
 Compare the performance of GLCM and Gabor filters in segmenting different textures. Discuss the strengths and weaknesses of each method and provide insights into their applications.
+
+Here's how you can include the clickable links in your README file:
+
+---
+
+### **References and Resources**
+
+For further guidance, you can use the following resources:  
+
+1. [Patch Extraction from Image](https://scikit-image.org/docs/stable/api/skimage.util.html#skimage.util.view_as_window)  
+2. [GLCM Guide](https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_glcm.html)  
+3. [Parallel Processing of Patches](https://stackoverflow.com/questions/48373944/how-to-apply-a-function-in-parallel-to-multiple-images-in-a-numpy-array)  
+
+---
+
+# METHOD
+
+
