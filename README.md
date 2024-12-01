@@ -58,6 +58,11 @@ Similar to the GLCM approach, apply the K-Means algorithm to the Gabor-based fea
 
 Compare the performance of GLCM and Gabor filters in segmenting different textures. Discuss the strengths and weaknesses of each method and provide insights into their applications.
 
+Dataset:
+
+<img style="width:600px" src="https://github.com/user-attachments/assets/b9e04c54-ac36-494a-a288-65533d3b1dc9">
+<img style="width:6000px" src="https://github.com/user-attachments/assets/ebb1359b-af55-4021-bb5c-57415242ed0d"> 
+
 Here's how you can include the clickable links in your README file:
 
 ---
@@ -89,8 +94,8 @@ One significant challenge was computational complexity. To manage this, I reduce
 
 ## Results Part 1:
 
-<img style="width:700px" src="https://github.com/user-attachments/assets/36fe3f42-6b0b-4e75-8224-75813a073017"> <br>
-<img style="width:500px" src="https://github.com/user-attachments/assets/3bf45e55-ecc1-46af-838c-be0c1453946d"> 
+<img style="width:1000px" src="https://github.com/user-attachments/assets/36fe3f42-6b0b-4e75-8224-75813a073017"> <br>
+<img style="width:1000px" src="https://github.com/user-attachments/assets/3bf45e55-ecc1-46af-838c-be0c1453946d"> 
 
 ### ** For  step by step results check notebook**
 
@@ -112,10 +117,10 @@ For each pixel, I extracted the response values from all applied Gabor filters. 
 * ### 3. Parameter Tuning
 I experimented with different filter sizes, scales, and orientations to find the optimal settings for each image. Larger filters captured broader patterns, while smaller ones focused on finer details. This flexibility allowed for more adaptive feature extraction compared to the patch-based GLCM approach.
 
-## Results Part 1:
+## Results Part 2:
 
-<img style="width:800px" src="https://github.com/user-attachments/assets/cbb4a1f4-d1bb-47d1-96ae-e43786f3eeb0"> <br>
-<img style="width:900px" src="https://github.com/user-attachments/assets/8693e1d2-0e87-44ce-9960-830b58324f65"> 
+<img style="width:1000px" src="https://github.com/user-attachments/assets/cbb4a1f4-d1bb-47d1-96ae-e43786f3eeb0"> <br>
+<img style="width:1000px" src="https://github.com/user-attachments/assets/8693e1d2-0e87-44ce-9960-830b58324f65"> 
 
 * ### Analysis
  
