@@ -97,7 +97,7 @@ One significant challenge was computational complexity. To manage this, I reduce
 <img style="width:1000px" src="https://github.com/user-attachments/assets/36fe3f42-6b0b-4e75-8224-75813a073017"> <br>
 <img style="width:1000px" src="https://github.com/user-attachments/assets/3bf45e55-ecc1-46af-838c-be0c1453946d"> 
 
-### ** For  step by step results check notebook**
+### For step-by-step results, check the [GLCM-Gabor NoteBook]([https://github.com/username/repo-name/blob/main/notebook-name.ipynb]).
 
 * ### Analysis
 
