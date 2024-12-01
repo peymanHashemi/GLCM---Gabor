@@ -10,20 +10,20 @@ To extract texture features using Gray Level Co-occurrence Matrices (GLCM) and p
 Divide the input image into patches. Each patch represents a window centered around a pixel. The size of the patch determines the granularity of feature extraction.
 For each patch, extract the central pixel and treat the patch as a separate image.
 
-### * 2. GLCM Feature Extraction:
+* ### 2. GLCM Feature Extraction:
 
 Compute the GLCM for each patch to capture texture information. The matrix encodes how often pairs of pixel intensities occur at a specified distance and orientation.
 Derive statistical features like correlation, contrast, and homogeneity from the GLCM.
 
-### * 3. Dimensionality Reduction:
+* ### 3. Dimensionality Reduction:
 
 Since GLCM computation can be resource-intensive, reduce the number of gray levels and image resolution to speed up processing.
 
-### * 4. Clustering with K-Means:
+* ### 4. Clustering with K-Means:
 
 Use the extracted features to perform clustering with the K-Means algorithm. Each pixel is assigned to a cluster, and the final segmentation map is reconstructed from the cluster assignments.
 
-### * 5. Analysis:
+* ### 5. Analysis:
 
 Evaluate the results for different images and explain the limitations of using GLCM for complex textures like stripes or repetitive patterns.
 
@@ -33,19 +33,19 @@ Description
 
 To extract features using Gabor filters and compare the results with GLCM-based segmentation.
 
-### * 1. Gabor Filters:
+* ### 1. Gabor Filters:
 
 Apply a bank of Gabor filters to the image. Each filter is tuned to a specific frequency and orientation, making them ideal for capturing texture details.
 Unlike GLCM, Gabor filters operate on the entire image and extract features at every pixel location.
 
-### * 2. Feature Extraction:
+* ### 2. Feature Extraction:
 
 Generate a feature map for each pixel based on the Gabor filter responses. These features are then used as inputs for the clustering process.
 
-### * 3. Clustering with K-Means:
+* ### 3. Clustering with K-Means:
 
 Similar to the GLCM approach, apply the K-Means algorithm to the Gabor-based features and reconstruct the segmentation map.
 
-### * 4. Comparison and Analysis:
+* ### 4. Comparison and Analysis:
 
 Compare the performance of GLCM and Gabor filters in segmenting different textures. Discuss the strengths and weaknesses of each method and provide insights into their applications.
