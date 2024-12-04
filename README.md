@@ -63,9 +63,6 @@ Dataset:
 <img style="width:400px" src="https://github.com/user-attachments/assets/b9e04c54-ac36-494a-a288-65533d3b1dc9">
 <img style="width:400px" src="https://github.com/user-attachments/assets/ebb1359b-af55-4021-bb5c-57415242ed0d"> 
 
-Here's how you can include the clickable links in your README file:
-
----
 
 ### **References and Resources**
 
